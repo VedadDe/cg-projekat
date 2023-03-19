@@ -1,11 +1,11 @@
-import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-jarvis-march',
+  templateUrl: './jarvis-march.component.html',
+  styleUrls: ['./jarvis-march.component.css']
 })
-export class AppComponent implements OnInit{
+export class JarvisMarchComponent {
   @ViewChild('canvas', { static: true })
   canvas!: ElementRef<HTMLCanvasElement>; // note the "!" operator
 
