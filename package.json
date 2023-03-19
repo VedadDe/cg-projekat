@@ -2,6 +2,7 @@
   "name": "geo-framework",
   "version": "0.0.0",
   "scripts": {
+    "deploy": "ng deploy --base-href=https://vedadde.github.io/cg-projekat/",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -28,6 +29,7 @@
     "@angular/compiler-cli": "^15.2.0",
     "@types/jasmine": "~4.3.0",
     "@types/node": "^18.15.3",
+    "angular-cli-ghpages": "^1.0.5",
     "jasmine-core": "~4.5.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
