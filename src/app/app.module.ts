@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { JarvisMarchComponent } from './components/jarvis-march/jarvis-march.component';
 import { PointInsideTriangleComponent } from './components/point-inside-triangle/point-inside-triangle.component';
+import { PointsOrientationComponent } from './components/points-orientation/points-orientation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     JarvisMarchComponent,
-    PointInsideTriangleComponent
+    PointInsideTriangleComponent,
+    PointsOrientationComponent
   ],
   imports: [
     BrowserModule,
