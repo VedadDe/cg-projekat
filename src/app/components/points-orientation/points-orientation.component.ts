@@ -79,9 +79,9 @@ export class PointsOrientationComponent implements OnInit {
       context.clearRect(0, 0, canvas.width, canvas.height);
       context.beginPath();
       context.moveTo(0, 0);
-      context.lineTo(canvas.width, 0);
-      context.lineTo(canvas.width, canvas.height);
-      context.lineTo(0, canvas.height);
+      // context.lineTo(canvas.width, 0);
+      // context.lineTo(canvas.width, canvas.height);
+      // context.lineTo(0, canvas.height);
       context.closePath();
       context.stroke();
     }
